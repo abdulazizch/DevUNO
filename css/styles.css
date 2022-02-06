@@ -459,6 +459,8 @@ header .bg-particles{
     font-size: 18px;
     font-weight: bold;
     color: var(--clr-prim);
+    display: inline;
+    -webkit-display: none;
   }
 .section-img .sec-image-con{
     width: 80%;
