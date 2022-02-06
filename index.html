@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./fonts/font-awesome/css/font-awesome.css">
+    <link rel="stylesheet" href="./fonts/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./aos-master/dist/aos.css">
+
+    <link rel="shortcut icon" href="./images/logo_DevUNO.svg" type="image/x-icon">
+    <link rel="stylesheet" href="./css/styles.css">
+    <title>DevUNO | A Multipurpose Arduino Compatible IoT Industrial Development Board</title>
+</head>
+<body>
+    <div class="main-wrapper" >
+        <!-- header section start -->
+        <section id="home">
+            <header>
+                <div class="bg-particles">
+                    <div id="particles-js"></div>
+                </div>
+                
+                <!-- navbar start  -->
+                <nav class="navbar navbar-expand-lg navbar-fixed">
+                    <div class="container-fluid">
+                        <div class="logo">
+                            <a href="" class="navbar-brand d-flex align-items-center">
+                                <img class="w-100" src="./images/logo_DevUNO.svg" alt="">
+                            </a>
+                        </div>
+                        
+                        <div class="ms-auto nav-menu collapse navbar-collapse justify-content-start me-2" id="navbarNav">
+                            <ul class="navbar-nav">
+                                <li class="ms-2 nav-item home active">
+                                    <a href="./index.html" class="nav-link active">Home</a>
+                                </li>
+                                <li class="ms-2 nav-item desc">
+                                    <a href="#description" class="nav-link">Description</a>
+                                </li>
+                                <li class="ms-2 nav-item specs">
+                                    <a href="#specifiactions" class="nav-link">Specification</a>
+                                </li>
+                                <li class="ms-2 nav-item comp">
+                                    <a href="#compatibility" class="nav-link">Compatibility</a>
+                                </li>
+                                <li class="ms-2 nav-item setup-ins">
+                                    <a href="#setup-instruction" class="nav-link">Setup</a>
+                                </li>
+                                <li class="ms-2 nav-item acrs">
+                                    <a href="#accessories" class="nav-link">Accessories</a>
+                                </li>
+                                <li class="ms-2 nav-item faq">
+                                    <a href="#FAQs" class="nav-link">FAQs</a>
+                                </li>
+                            </ul>
+                        </div>
+                        
+                        <div class="social-menu-con w-auto d-flex ms-auto">
+                            <ul class="m-0 p-0 social-menu d-flex align-items-center justify-content-start">
+                                <li class="social-menu-item">
+                                    <a href="mailto:" class="social-link"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+                                </li>
+                            </ul>
+                        </div>
+                        <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                    </div>
+                </nav>
+                <!-- navbar end  -->
+
+                <div class="banner-con col-12" id="home">
+                    <div class="banner col-12 row m-0 px-2 px-md-5">
+                        <div data-aos="zoom-out-right" class="banner-text col-12 col-lg-6">
+                            <h2 class="text-start"><span>Dev</span>UNO</h2>
+                            <h3 class="text-start">A Multipurpose Arduino Compatible IoT Industrial Development Board </h3>
+                        </div>
+                        <div class="banner-image col-12 col-lg-6 d-flex justify-content-center">
+                            <span class="bg-shape">
+                                <!-- <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill="#CDE6EB" d="M46.5,-67C58,-55.6,63.6,-39,68.3,-22.6C73,-6.3,76.9,10,72.5,23.5C68.1,37.1,55.4,48,42,57.4C28.5,66.7,14.3,74.5,-1.4,76.5C-17.2,78.5,-34.3,74.7,-50,66C-65.6,57.4,-79.7,43.9,-83.7,28C-87.8,12.1,-81.7,-6.2,-73.7,-21.9C-65.8,-37.5,-55.9,-50.4,-43.3,-61.5C-30.7,-72.5,-15.3,-81.7,1.1,-83.2C17.5,-84.7,34.9,-78.4,46.5,-67Z" transform="translate(100 100)" />
+                                  </svg> -->
+                                  <img src="./images/blob.svg" alt="">
+                            </span>
+                            <img data-aos="zoom-out-left" class="" src="./images/cover_board.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </header>
+        </section>
+        <!-- header section end  -->
+
+        <!-- Description section start -->
+        <section id="description" class="description-sec">
+            <div class="section-con container-fluid pt-5 p-2 p-md-5 pb-md-2">
+                <div class="section-title">
+                    <h2 class="ms-4">Description</h2>
+                </div>
+                <div class="section-content row m-0 mt-3">
+                    <div data-aos="fade-right" class="section-text  py-5 col-12 col-md-6">
+                        <p>DevUNO is a multipurpose Arduino development board that allows you to quickly and easily test all your existing modules, sensors,
+                             and components without having to struggle with breadboards and "cobwebs". It can be immediately deployed in real-time/world.
+                        </p>
+                        <p>
+                            DevUNO covers a wide area of use, namely: industry, agriculture, animal husbandry, scientific research, and educational projects. It is also a great gadget for hobbyists.
+                        </p>
+                    </div>
+                    <div class="section-img d-flex justify-content-center col-12 col-md-6">
+                        <div class="sec-image-con">
+                            <img data-aos="fade-left" class="w-100" src="./images/description_inside.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Description section  end-->
+
+        <!-- Specifiaction section start -->
+        <section id="specifiactions" class="specification-sec">
+            <div class="section-con container-fluid pt-2 p-0">
+                <div class="section-title p-2 p-md-5 pb-md-4">
+                    <h2 class="ms-4">Specifications</h2>
+                </div>
+            
+                <div class="section-content row m-0 mt-3">
+                    <div class="section-img col-12 col-lg-5 my-3 d-flex justify-content-center">
+                        <div class="bg-clip-path">
+                        </div>
+                        <img data-aos="fade-right" class="" src="./images/specification.png" alt="">
+                    </div>
+                    <div data-aos="fade-left"  class="section-text mt-2 d-flex align-items-start spec-text col-12 col-lg-7">
+                        <div class="row m-0">
+                            <ol class="col-12 col-md-6">
+                                <li class="d-flex"> <span class="col-2">1</span> <p>DC Power-Terminal Connector</p></li>
+                                <li class="d-flex"> <span class="col-2">2</span> <p>DC Power-DC Jack</p></li>
+                                <li class="d-flex"> <span class="col-2">3</span> <p>DC 5V/2A Power Supply</p></li>
+                                <li class="d-flex"> <span class="col-2">4</span> <p>External Reset</p></li>
+                                <li class="d-flex"> <span class="col-2">5</span> <p>Internal (On-board) Reset</p></li>
+                                <li class="d-flex"> <span class="col-2">6</span> <p>USB UART Interface Connector (+, RX, TX, GT, -)</p></li>
+                                <li class="d-flex"> <span class="col-2">7</span> <p>External Even LED (Build in LED)</p></li>
+                                <li class="d-flex"> <span class="col-2">8</span> <p>Internal Even LED (Build in LED, Can be disabled by the Jumper</p></li>
+                                <li class="d-flex"> <span class="col-2">9</span> <p>External Power LED</p></li>
+                                <li class="d-flex"> <span class="col-2">10</span> <p>Internal Power, can be disabled by the Jumper</p></li>
+                            </ol>
+                            <ol class="col-12 col-md-6">
+                                <li class="d-flex"> <span class="col-2">11</span> <p>Clock/Frequency Selector</p></li>
+                                <li class="d-flex"> <span class="col-2">12</span> <p>Internal 3.3V/800mA Power Supply</p></li>
+                                <li class="d-flex"> <span class="col-2">13</span> <p>Integrated RF 433 MHz OOK/ASK Receiver / Transmitter with SMA and Terminal Connector  attached Antena (Optional)</p></li>
+                                <li class="d-flex"> <span class="col-2">14</span> <p>6x Digital Pin Extension: D3, D5, D6, D7, D8, D9 </p></li>
+                                <li class="d-flex"> <span class="col-2">15</span> <p>6x Analog Pin Extension: : A5, A4, A3, A2, A1, A0</p> </li>
+                                <li class="d-flex"> <span class="col-2">16</span> <p>6x 12C Pin Extension (In this case you can't use Analog Pins A5 and A4)</p></li>
+                                <li class="d-flex"> <span class="col-2">17</span> <p>ISP (ICSP) Header</p></li>
+                            </ol>
+                        </div>
+                    </div>
+                    <div data-aos="fade-up"  class="section-text col-12 p-2 p-md-5">
+                        <div class="sub-section technical col-12 row m-0">
+                            <div class="sub-section-title">
+                                <h3 class="ms-1 ms-md-4 mt-3">Technical Specifications</h3>
+                            </div>
+                            <div class="sub-section-text row m-0 mt-4 ps-4 ps-md-5">
+                                <ul class="col-12 col-md-6">
+                                    <li>ATmega328P 8-bit AVR Microcontroller</li>
+                                    <li>32 KB Flash Memory, 2 KB SRAM, 1 KB EEPROM</li>
+                                    <li>16 MHz Clock Speed</li>
+                                    <li>14 Digital I/O Pins (6 PWM outputs)</li>
+                                    <li>6 Analog Inputs</li>
+                                    <li>Extended Digital Ports: D3, D5, D6, D7, D8, D9 (6 ports)</li>
+                                    <li>Extended Analog Ports: A5, A4, A3, A2, A1, A0 (6 ports)</li>
+                                    <li>Extended I2C Ports: 6x ports via A4 and A5 (6 ports)</li>
+                                    <li>Integrated 5V/2A DC Power Supply</li>
+                                    <li>Integrated Voltage Divider on A2/VIN and A3/VOT for Power Supply Measurements</li>
+                                </ul>
+                                <ul class="col-12 col-md-6">
+                                    <li>Integrated RF 433MHz OOK/ASK Wireless Module - Receiver / Transmitter (optional)</li>
+                                    <li>Standard 2.54mm / JST-XH Headers with access to I/Os, SPI, UART, ADC, ISP (ICSP), and Power pins</li>
+                                    <li>Arduino UNO Shield Compatible</li>
+                                    <li>Input voltage: 9-24V DC (max. 30V DC)</li>
+                                    <li>Operating voltage: 5V DC (has an integrated 3.3V / 800mA LDO voltage regulator)</li>
+                                    <li>Dimensions: 117 mm x 96 mm</li>
+                                    <li>Weight: 121 g (with Transparent Plexiglas base)</li>
+                                    <li>Operating temperature: -40 – 85 °C</li>
+                                </ul>
+                            </div>
+                            
+                        </div>
+                        <div class="sub-section extended col-12  mt-3">
+                            <div class="sub-section-title">
+                                <h3 class="ms-2 ms-md-4">Extended Specifications</h3>
+                            </div>
+                            <div class="sub-section-text mt-3 ms-1 ms-md-4">
+                                <p class="ms-2 ms-md-3">It offers you the possibility to choose the Clock source of the Microcontroller, i.e., to use a Crystal, a Resonator,
+                                     or the Internal Oscillator of the Microcontroller itself (in that case, all you need to do is to disable the External 
+                                     Clock source by shorting out the jumper pads on the board’s backside).
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </section>
+        <!-- Specifiaction section  end-->
+
+        <!-- Compatibility section start -->
+        <section class="compatibility-sec  p-2 p-md-5" id="compatibility">
+            <div class="section-con container-fluid py-3">
+                <div class="section-title">
+                    <h2 class="ms-4">Microcontroller Compatibility</h2>
+                </div>
+            </div>
+            <div class="section-content px-2 px-md-5">
+                <div class="section-text col-12 ms-3">
+                    <h4>Can be used with any of the following AVR Microcontrollers:</h4>
+                    <div class="row m-0 px-3">
+                        <ul class="col-12 col-md-6">
+                            <li>ATtiny48</li>
+                            <li>ATtiny88</li>
+                            <li>ATmega8 (Arduino NG – 8s delay by Bootloader)</li>
+                            <li>ATmega48</li>
+                        </ul>
+                        <ul class="col-12 col-md-6">
+                            <li>ATmega88</li>
+                            <li>ATmega168</li>
+                            <li>ATmega328 (Arduino UNO)</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Compatibility section end -->
+
+        <!-- Setup section start -->
+        <section class="setup-sec p-2 p-md-5 pb-md-2" id="setup-instruction">
+            <div class="section-con container-fluid py-3">
+                <div class="section-title">
+                    <h2 class="ms-4">Setup Instruction</h2>
+                </div>
+            </div>
+            <div class="section-content mt-2 px-2 px-md-5">
+                <div data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine  class="section-text col-12 ms-3">
+                    <h4>To setup the Microcontroller follow the steps:</h4>
+                    <div class="row m-0 px-3">
+                        <ol class="col-12">
+                            <li>Download and install Arduino IDE for Programming, Debugging, Compiling, and Uploading.</li>
+                            <li>Connect your favorite USB 2.0 to TTL UART 5-pin Adapter (CP2102, CP2104, FT232RL) to connect DevUNO’s UART port with your computer using Arduino IDE.</li>
+                            <li>Start Arduino IDE, open or write your desired code.</li>
+                        </ol>
+                        <ul class="col-12 ms-3">
+                            <li>Click Tools -> Board -> and select Arduino/Genuino UNO.</li>
+                            <li>Click Tools -> Port -> and select the COM port as detected by the computer in the device manager.</li>
+                            <li>Click Verify to compile the code.</li>
+                            <li>Click Upload to burn the code / ".hex" file into microcontroller.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Setup section end -->
+
+        <!-- Accessories section start -->
+        <section id="accessories" class="accessories-sec">
+            <div class="section-con container-fluid pt-5 p-2 p-md-5">
+                <div class="section-title">
+                    <h2 class="ms-4">Accessories</h2>
+                </div>
+                
+                <div class="section-content mt-3">
+                    <div class="accessories-cards-con" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-offset="300" data-aos-easing="ease-in-sine">
+                        <div class="row m-0 justify-content-center">
+                            <div class="accessories-card col-9 my-3 col-sm-5 col-md-3 mx-0 mx-md-3">
+                                <div class="accessories-card-content h-100 p-0 ">
+                                    <div class="card-title text-center p-2">
+                                        <h4>Digital/Analog Extension Board with Pull-Up/Down</h4>
+                                    </div>
+                                    <div class="card-img text-center">
+                                        <img class="" src="./images/01.png" alt="">
+                                    </div>
+                                    <div class="count-tag px-3 py-2">
+                                        <h4 class="m-0">1</h4>
+                                    </div>
+                                </div>
+                            </div>
+    
+                            <div class="accessories-card col-9 my-3 col-sm-5 col-md-3 mx-0 mx-md-3">
+                                <div class="accessories-card-content h-100 p-0 ">
+                                    <div class="card-title text-center p-2">
+                                        <h4>I2C Extension Board with  Pull-Up</h4>
+                                    </div>
+                                    <div class="card-img text-center">
+                                        <img class="" src="./images/02.png" alt="">
+                                    </div>
+                                    <div class="count-tag px-3 py-2">
+                                        <h4 class="m-0">2</h4>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                        </div>
+
+                        <div class="row m-0 justify-content-center">
+                            <div class="accessories-card col-9 my-3 col-sm-5 col-md-2 mx-0 mx-md-3">
+                                <div class="accessories-card-content h-100 p-0 ">
+                                    <div class="card-title text-center p-2">
+                                        <h4>I2C Sensor Extension Board</h4>
+                                    </div>
+                                    <div class="card-img text-center">
+                                        <img class="" src="./images/03.png" alt="">
+                                    </div>
+                                    <div class="count-tag px-3 py-2">
+                                        <h4 class="m-0">3</h4>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="accessories-card col-9 my-3 col-sm-5 col-md-2 mx-0 mx-md-3">
+                                <div class="accessories-card-content h-100 p-0 ">
+                                    <div class="card-title text-center p-2">
+                                        <h4>I2C Sensor Adapter</h4>
+                                    </div>
+                                    <div class="card-img text-center">
+                                        <img class="" src="./images/04.png" alt="">
+                                    </div>
+                                    <div class="count-tag px-3 py-2">
+                                        <h4 class="m-0">4</h4>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="accessories-card col-9 my-3 col-sm-5 col-md-2 mx-0 mx-md-3">
+                                <div class="accessories-card-content h-100 p-0 ">
+                                    <div class="card-title text-center p-2">
+                                        <h4>Digital Sensor Adapter</h4>
+                                    </div>
+                                    <div class="card-img text-center">
+                                        <img class="" src="./images/05.png" alt="">
+                                    </div>
+                                    <div class="count-tag px-3 py-2">
+                                        <h4 class="m-0">5</h4>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="accessories-card col-9 my-3 col-sm-5 col-md-2 mx-0 mx-md-3">
+                                <div class="accessories-card-content h-100 p-0 ">
+                                    <div class="card-title text-center p-2">
+                                        <h4>I2C EEPROM Module</h4>
+                                    </div>
+                                    <div class="card-img text-center">
+                                        <img class="" src="./images/06.png" alt="">
+                                    </div>
+                                    <div class="count-tag px-3 py-2">
+                                        <h4 class="m-0">6</h4>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                      <div class="row m-0 justify-content-center">
+                        <div class="accessories-card col-11 my-3 col-md-5 ">
+                            <div class="accessories-card-content h-100 p-0 ">
+                                <div class="card-title text-center p-2">
+                                    <h4>DS18b20 Sensor Module (8x Array)</h4>
+                                </div>
+                                <div class="card-img last text-center">
+                                    <img class="" src="./images/07.png" alt="">
+                                </div>
+                                <div class="count-tag px-3 py-2">
+                                    <h4 class="m-0">7</h4>
+                                </div>
+                            </div>
+                        </div>
+                      </div>
+                        
+                    </div>
+                    <!-- accessories cards items end  -->
+
+                    <div class="sec-text col-12 ps-3 mt-5">
+                        <h4>Can be used with a combination of:</h4>
+                        <ul>
+                            <li>Raindrop, Soil Moisture, Liquid Water Level / Flow Sensor, Motion, Magnetic, Proximity Switch</li>
+                            <li>SHT10, AM2315 Waterproof Probe</li>
+                            <li>BMP085, BMP180, BMP280, BME280, SHT21, SHT30, SHT31, HTU21, Si7021, Si1145, SGP30</li>
+                            <li>DHT12, AM2320, AM2321, AM2322, SHT20, AGS02MA</li>
+                            <li>DHT11, DHT12, DHT22, MW33, AM2120, AM2320, AM2302</li>
+                            <li>AT24C01A, AT24C02, AT24C04, AT24C08, AT24C016, AT24C32, AT24C64, AT24C128, AT24C256</li>
+                            <li>Waterproof Probe or TO-92 Package (more Sensor Modules can be combined together)</li>
+                        </ul>
+                        <p>and many other Sensor Modules, Extension Boards, and Accessories…</p>
+                    </div>
+                </div>
+            </div>
+
+           
+        </section>
+        <!-- Accessories section  end-->
+
+        <!-- FAQ section start -->
+        <section class="faq-sec mt-3 mb-5" id="FAQs">
+            <div class="section-con container-fluid pt-2 px-2 px-md-5">
+                <div class="section-title mb-4">
+                    <h2 class="ms-4">FAQs</h2>
+                </div>
+            </div>
+            <div data-aos="zoom-out" class="section-content row m-0 mt-3 px-3 px-md-5">
+                <div class="faq-dropdown-con p-0">
+                    <div class="faq-dropdown accordion" id="accordionExample">
+
+                        <div class="faq-item accordion-item">
+                            <h2 class="accordion-header" id="headingOne">
+                              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne" >
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quos, eaque.
+                              </button>
+                            </h2>
+                            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample" >
+                              <div class="accordion-body">
+                                <p>
+                                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, corporis!
+                                </p>
+                              </div>
+                            </div>
+                          </div>
+
+                      <div class="faq-item accordion-item">
+                        <h2 class="accordion-header" id="headingTwo">
+                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapsetwo" aria-expanded="false" aria-controls="collapsetwo" >
+                            Lorem ipsum dolor sit.
+                          </button>
+                        </h2>
+                        <div id="collapsetwo" class="accordion-collapse collapse" aria-labelledby="headingtwo" data-bs-parent="#accordionExample" >
+                          <div class="accordion-body">
+                            <p>
+                              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Necessitatibus adipisci odio error eius omnis maiores ad modi vel incidunt quo!
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+        
+                      <div class="faq-item accordion-item">
+                        <h2 class="accordion-header" id="headingThree">
+                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree" >
+                            Lorem, ipsum dolor sit amet consectetur adipisicing.
+                          </button>
+                        </h2>
+                        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample" >
+                          <div class="accordion-body">
+                            <p>
+                             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quia reiciendis excepturi repellendus possimus atque sunt nisi id, ut quae neque.
+                            </p>
+                            
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="faq-item accordion-item">
+                        <h2 class="accordion-header" id="headingFour">
+                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour" >
+                            Lorem ipsum dolor sit adipisci.
+                          </button>
+                        </h2>
+                        <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample" >
+                          <div class="accordion-body">
+                            <p>
+                              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Necessitatibus adipisci odio error eius omnis maiores ad modi vel incidunt quo!
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+        
+                      <div class="faq-item accordion-item">
+                        <h2 class="accordion-header" id="headingFive">
+                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive" >
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, autem?
+                          </button>
+                        </h2>
+                        <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample" >
+                          <div class="accordion-body">
+                            <p>
+                              Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse dicta saepe dignissimos eligendi totam nobis!
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+        </section>
+        <!-- FAQ section end -->
+
+        <footer class="">
+            <div class="footer-logo mb-5">
+                <img class="" src="./images/logo_DevUNO.svg" alt="">
+            </div>
+            <div class="copyright p-3">
+                <div class="copyright-text text-center">
+                    <p class="m-0 text-content english">Copyright&copy <script>document.write(new Date().getFullYear())</script>, B.E.I.C. ELECTRONICS. All Rights Reserved.</p>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <script src="./js/jQuery-3.6.0.js"></script>
+    <script src="./bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="./js/Particles/JS/particles.js"></script>
+    <script src="./js/Particles/JS/app.js"></script>
+    <script src="./aos-master/dist/aos.js"></script>
+    <script src="./js/main.js"></script>
+    <script>
+        AOS.init();
+      </script>
+</body>
+</html>
