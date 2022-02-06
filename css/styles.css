@@ -391,6 +391,8 @@ header .bg-particles{
         padding-top:23vh;
         padding-left: 5%;
         height: max-content;
+        position: relative;
+        z-index: 3;
     }
     .banner-con .banner .banner-text h2{
         font-size: 70px;
