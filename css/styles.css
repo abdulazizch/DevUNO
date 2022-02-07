@@ -324,9 +324,9 @@ header .bg-particles{
 }
 .banner-con .banner .banner-text h3{
     color: var(--clr-prim);
-    font-size: 18px;
+    font-size: 22px;
     font-weight: 500;
-    width: 60%;
+    width: 100%;
     text-align: center;
     line-height: 1.4;
 }
