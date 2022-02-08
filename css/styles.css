@@ -668,7 +668,7 @@ footer {
     background-repeat: no-repeat;
     margin-top: 20vh;
     padding: 0;
-    padding-top: 20vh;
+    padding-top: 80px;
     max-height: max-content;
     position: relative;
 }
@@ -677,16 +677,17 @@ footer .footer-logo{
     position: absolute;
     top: -30%;
     background: var(--clr-gradLeft);
-    padding: 16px;
-    border-radius: 15px 15px 0 0;
+    padding: 10px;
+    border-radius: 12px 12px 0 0;
     left: 5%;
 }
 footer .footer-logo img{
-    width: 10vw;
-    min-width: 80px;
+    width: 6vw;
+    min-width: 60px;
+    max-width: 90px;
 }
 footer .copyright{
-    height: 10%;
+    height: 11%;
     border-top: 1px solid var(--clr-prim);
 }
 .copyright .copyright-text p{
@@ -695,13 +696,13 @@ footer .copyright{
 
 @media only screen and (max-width:992px) {
     footer{
-        padding-top: 15vh;
+        padding-top: 70px;
     }
 }
 @media only screen and (max-width:500px) {
     footer{
         margin-top: 13vh;
-        padding-top: 11vh;
+        padding-top: 60px;
     }
     footer .footer-logo{
         padding: 10px;
